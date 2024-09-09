@@ -15,7 +15,7 @@ Before you begin the lab, please ensure you have the following set up:
 
 ## Instructions
 
-If you have previously contributed to the open source community or worked on side projects, and you are applying for an coder position, you can bypass some of the lab tasks.
+If you have previously contributed to any open source community or worked on side projects, and you are applying for an coder position, you can bypass some of the lab tasks.
 
 ### Administor and Project leader
 1. **Create a Markdown File**: Create a `.md` file in this repository.
@@ -24,16 +24,17 @@ If you have previously contributed to the open source community or worked on sid
 
 ### Coder
 1. **Create a Directory Called `project`**:
-   - Before you start your code journey. In the root directory (`/`), create a new branch called(`position/your-name` like `coder/rupert`)
+   - Before you start your code journey. In the root directory (`/`) of your project, initiate git and create a new git branch called(`position/your-name` like `coder/rupert`)
    - Create a folder named `project` in the main directory of this repository.
 
-2. **Find and Clone an Open Source Project**:
-   - Choose an open-source project from the following options, or select your own project if you are applying for a project leader or administrator position:
+3. **Find and Clone an Open Source Project**:
+   - Choose an open-source project from the following options, or clone the project provided by the project leader or administrator who you choose to follow:
      - [React Documentation Website](https://github.com/reactjs/react.dev)
      - [Flutter Documentation Website](https://github.com/flutter/website)
+     - Any project you like and you understand what it did at least you can make modification based on it.
    - Clone the chosen project into the `project` folder you created.
 
-3. **Make Changes Based on the Project You Cloned**:
+4. **Make Changes Based on the Project You Cloned**:
    - Modify the cloned project to demonstrate your ability to quickly understand and work with an unfamiliar codebase.
    - Capture screenshots of your changes.
    - Save these screenshots in a separate folder named `img` within the root directory of this repository. The folder structure should look like this:
@@ -47,7 +48,7 @@ If you have previously contributed to the open source community or worked on sid
          └── ...
      ```
 
-4. **Submit Your Work**:
+5. **Submit Your Work**:
    - Commit your changes to your forked repository (`/project/forked-repo`or `/project/`).
    -  **ENSURE YOU ARE IN YOUR OWN BRANCH NOT THE MAIN**, return to root directory (`/`) and commit your changes to that branch, 
    to do this, you have to know how to use git, you can follow the administor or project leader's tutorial or watch the video
