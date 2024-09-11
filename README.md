@@ -30,11 +30,10 @@ If you have previously contributed to any open source community or worked on sid
 3. **Find Your Project Member**: You should ensure that others can deploy your project locally and make modifications based on it. To facilitate this, provide a brief tutorial on how to work with your project. Additionally, you need to find someone to deploy your project. This involves persuading them to use your project, assisting them with any issues they encounter, and tracking their progress.
 
 ### Coder
-1. **Fork this lab repo**:  
-   - You have to fork this lab repo
-   - Clone from your forked repo to your local, and remember, you have to push the final work(lab) to this remote.
+1. **Ask for permission**:  
+   - Ask for permission. Leave your github account username to us. This is for you to easily push your own branch to our repo. 
 
-1. **Create your own `git branch`**:
+2. **Create your own `git branch`**:
   - Before you start your code journey. In the project root directory (`path-to-your-project/`), you justed cloned it from step 1, create a new branch called(`position/your-name` like `coder/rupert`)
 
 3. **Create a Directory Called `projects`(alternative)**:  
@@ -63,7 +62,7 @@ If you have previously contributed to any open source community or worked on sid
      - [React Documentation Website](https://github.com/reactjs/react.dev)
      - [Flutter Documentation Website](https://github.com/flutter/website)
    - Fork the project to your [own repo](https://github.com/WKU-SRA-Dev/website) like this one we show you.
-   - Clone the chosen project **FROM YOUR OWN REPO** into your local, and you will develop based on that repo, you are recommended to use another directory to clone this repo, because that will keep your git repo clear.  
+   - Clone the chosen project **FROM YOUR OWN FORKED REPO** into your local, and you will develop based on that repo, you are recommended to use another directory to clone this repo, because that will keep your git repo clear.  
    If you are in the lab directory, with the previous example:
    
    ```bash
@@ -122,12 +121,10 @@ You can find instructions on how to deploy the project locally in the respective
 
    ![commit](img/commit1.png)
    
-7. **Submit this lab when you finish all the jobs**:
-  - Return to the lab   
+7. **Submit this lab**:  
   - ENSURE YOU ARE ON YOUR OWN BRANCH like `coder/rupert`
   - commit all your changes 
-  - push to your forked lab repo（not the repo you cloned and developed）
-  - Pull a request (pr) to our lab repo
+  - push to our lab repo, ensure you have accepted our collaborator invitation
 
 
 ### Bonus Section
