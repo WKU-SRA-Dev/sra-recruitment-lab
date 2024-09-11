@@ -126,6 +126,8 @@ You can find instructions on how to deploy the project locally in the respective
   - commit all your changes 
   - push to our lab repo, ensure you have accepted our collaborator invitation
 
+### Submit Example
+[example](https://github.com/WKU-SRA-Dev/sra-recruitment-lab/tree/coder/stewie)
 
 ### Bonus Section
 
