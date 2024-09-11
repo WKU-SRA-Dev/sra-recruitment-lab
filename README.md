@@ -127,6 +127,10 @@ You can find instructions on how to deploy the project locally in the respective
   - push to our lab repo, ensure you have accepted our collaborator invitation
 
 
+### Submit Example
+[example](https://github.com/WKU-SRA-Dev/sra-recruitment-lab/tree/coder/stewie)
+
+
 ### Bonus Section
 
 The above tasks are intended to assess your ability to learn unfamiliar topics, particularly in situations where you may have no prior experience in programming. The following are additional bonus tasks. While they are not the primary criteria for our selection process, excellent works in these tasks can set you apart from your peers in a competitive environment.
