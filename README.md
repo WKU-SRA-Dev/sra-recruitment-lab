@@ -13,7 +13,7 @@ Before you begin the lab, please ensure you have the following set up:
    or [一小时git教程, zh-CN](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.337.search-card.all.click). 
 - **GitHub Account**: You will need a GitHub account to participate in this lab. If you don’t have one, please create it [here](https://github.com/join).
 - **Technical Stack**: Make sure you have the necessary tools and software installed on your computer. 
-- **Any IDE or Code Editor**: You can choose any code editor if you like, we would recommend you to use vscode, it is open source and light weight.
+- **Any IDE or Code Editor**: You can choose any code editor if you like, we would recommend you to use vscode, it is open source and lightweight.
 - Knowledge of Basic Shell Commands and Markdown: Familiarity with basic shell commands and Markdown (MD) syntax is required.
    > tutorial references:    
    [30分钟Shell光速入门教程, zh-CN](https://www.bilibili.com/video/BV17m411U7cC/?spm_id_from=333.337.search-card.all.click).   
@@ -22,7 +22,7 @@ Before you begin the lab, please ensure you have the following set up:
 
 ## Instructions
 
-If you have previously contributed to any open source community or worked on side projects, and you are applying for an coder position, you can bypass some of the lab tasks.
+If you have previously contributed to any open source community or worked on side projects, and you are applying for a coder position, you can bypass some of the lab tasks.
 
 ### Administor and Project leader
 1. **Create a Markdown File**: Create a `your-repo-name.md` file in this repository.
@@ -34,10 +34,10 @@ If you have previously contributed to any open source community or worked on sid
    - Ask for permission. Leave your github account username to us. This is for you to easily push your own branch to our repo. 
 
 2. **Create your own `git branch`**:
-  - Before you start your code journey. In the project root directory (`path-to-your-project/`), you justed cloned it from step 1, create a new branch called(`position/your-name` like `coder/rupert`)
+  - Before you start your code journey. In the project root directory (`path-to-your-project/`), you just cloned it from step 1, create a new branch called(`position/your-name` like `coder/rupert`)
 
 3. **Create a Directory Called `projects`(alternative)**:  
-   Create a folder named `projects` in the main directory of this repository if you want to clone more than a single project. Then, you can clone different projects into this folder. If you just want to clone one project and make modifications, you are suggested to directly add your `your-repo-name.md`.
+   Create a folder named `projects` in the main directory of this repository if you want to clone more than a single project. Then, you can use it to record your coding journey of different repo. If you just want to clone one project and make modifications, you are suggested to directly add your `your-repo-name.md`.
 
      ```
      .
@@ -49,6 +49,7 @@ If you have previously contributed to any open source community or worked on sid
      
       
      ```
+     or
 
       ```
       .
@@ -58,7 +59,7 @@ If you have previously contributed to any open source community or worked on sid
       ```
 
 4. **Find and Clone an Open Source Project**:
-  - Choose an open-source project from the following options, as they are generally easier to deploy than other projects, assuming you have prior programming knowledge. If you prefer, you can deploy any project of your choice, or select your own project if you are applying for a project leader or administrator position:
+  - Choose an open-source project from the following options, as they are generally easier to deploy than other projects, and do not assume you have prior programming knowledge. If you prefer, you can deploy any project of your choice, or select your own project if you are applying for a project leader or administrator position:
      - [React Documentation Website](https://github.com/reactjs/react.dev)
      - [Flutter Documentation Website](https://github.com/flutter/website)
    - Fork the project to your [own repo](https://github.com/WKU-SRA-Dev/website) like this one we show you.
@@ -70,15 +71,15 @@ If you have previously contributed to any open source community or worked on sid
    git clone git@github.com:WKU-SRA-Dev/website.git
    ```
    
-   This maybe our lab repo:
+   This may be our lab repo:
    ```
    ~/sra-recruitment-lab
    ```
-   This maybe the repo you cloned:   
+   This may be the repo you cloned:   
    ```
    ~/website
    ```
-   bonus: ~ represent the home directory of the current user. 
+   bonus: ~ represents the home directory of the current user. 
 
 You can find instructions on how to deploy the project locally in the respective repositories.
 
@@ -87,7 +88,7 @@ You can find instructions on how to deploy the project locally in the respective
    - Modify the cloned project to demonstrate your ability to quickly understand and work with an unfamiliar codebase.
    - Capture screenshots of your changes.
    - Return to the lab project
-   - Summarize what you did and what you learn in the `*.md` file
+   - Summarize what you did and what you learned in the `*.md` file or you can use it to record anything, which happened in your coding journey
    - Save these screenshots in a separate folder named `img` within the root directory of this repository. The folder structure should look like this:
      ```
      .
@@ -117,7 +118,7 @@ You can find instructions on how to deploy the project locally in the respective
    - Commit your changes to your forked repository(you cloned as the project you are developing, **not the lab** (`path-to-your-cloned-repo/`).
    - push your commits to your own remote repo (the forked repo)    
 
-   >You should have a clear description of what you did in your commit message. The commit message will show your commit time, so keep learning during the labs. Do not try to finish within 2 hours : )
+   >You should have a clear description of what you did in your commit message. The commit message will show your commit time, so keep contributing during the labs. Do not try to finish within 2 hours : )
 
    ![commit](img/commit1.png)
    
@@ -132,7 +133,8 @@ You can find instructions on how to deploy the project locally in the respective
 ### Bonus Section
 
 The above tasks are intended to assess your ability to learn unfamiliar topics, particularly in situations where you may have no prior experience in programming. The following are additional bonus tasks. While they are not the primary criteria for our selection process, excellent works in these tasks can set you apart from your peers in a competitive environment.
-
+- Set up a `.devcontainer` for this repo. You need to provide a base Linux image; Alpine is recommended because it is lightweight. Then, help your peers who do not have a Unix system use this devcontainer. You need to contribute your config file to the main branch. Git conflicts may happen at any time, so you must know how to resolve them and help your peers resolve these conflicts.
+- Helping your peers, whether through group chat or private messages, will always improve your chances of receiving our offer.
 
 
 
