@@ -1,0 +1,16 @@
+
+{
+  "name": "Java Dev Container",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "vscjava.vscode-java-pack", 
+    "vscjava.vscode-java-test", 
+    "redhat.java"
+  ],
+  "settings": {
+    "java.home": "/usr/lib/jvm/java-11-openjdk" 
+  },
+  "postCreateCommand": "mvn install"
+}
