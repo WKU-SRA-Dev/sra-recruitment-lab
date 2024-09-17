@@ -1,4 +1,4 @@
-# What I Have Learned
+# Lessons Learned from Modifying and Pushing the Repository
 ﻿
 Hi, this is what I learned from cloning, deploying, and making some modifications based on the Flutter project. I pushed my modified edition to my own repo. Here is what I learned:  
 Here is what learned: I understood some concepts about programming and learned how to use Git and Shell.  
@@ -8,6 +8,6 @@ n this activity.
 ﻿
 ﻿
 ---
-**THE WEBSITE**
+**THE WEBSITE**  
 Original repo: https://github.com/reactjs/react.dev.git  
 My repo: https://github.com/SiyuanWang-Sylvie/react.dev
