@@ -1,5 +1,6 @@
->[!info] Something Different
+>***Something Different***
 >Here is Stefan's little-change README.md of  SRA Software Department Recruitment Lab 2024
+
 # SRA Software Department Recruitment Lab 2024
 
 Welcome to the **SRA Software Department Recruitment Lab 2024**! This repository is designed to evaluate your learning ability. Please note that we are not testing your programming skills, so relax and focus on the tasks at hand.
