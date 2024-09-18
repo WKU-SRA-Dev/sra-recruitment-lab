@@ -10,7 +10,7 @@
 	},
 	"remoteEnv": {
 		"PATH": "${containerEnv:PATH}:${containerEnv:FLUTTER_ROOT}/bin"
-	},$即用来表示变量
+	},  $即用来表示变量
 	"onCreateCommand": "git clone --branch=stable https://github.com/flutter/flutter.git ${FLUTTER_ROOT} && ${FLUTTER_ROOT}/bin/flutter doctor",
 	"postCreateCommand": "git submodule update --init --recursive && flutter pub get && corepack install && pnpm install",
 	"customizations": {
