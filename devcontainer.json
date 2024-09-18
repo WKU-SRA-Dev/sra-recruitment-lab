@@ -4,14 +4,13 @@
 	"name": "Flutter documentation website development",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
 	"forwardPorts": [4000],
-	索引是【】
 	"containerUser": "node",
 	"containerEnv": {
 		"FLUTTER_ROOT": "/home/node/flutter"
 	},
 	"remoteEnv": {
 		"PATH": "${containerEnv:PATH}:${containerEnv:FLUTTER_ROOT}/bin"
-	},$在这是引用变量的意思
+	},
 	"onCreateCommand": "git clone --branch=stable https://github.com/flutter/flutter.git ${FLUTTER_ROOT} && ${FLUTTER_ROOT}/bin/flutter doctor",
 	"postCreateCommand": "git submodule update --init --recursive && flutter pub get && corepack install && pnpm install",
 	"customizations": {
