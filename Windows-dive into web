@@ -1,0 +1,71 @@
+        #Dive into web
+Hello everyone，welcome to the lab。I am honored to post a tutorial here. My understand of web and GITHUB still is not mature enough, but hope you can acqiure some help here, I will very happy if this tutorial is helpful for you.
+Let's start!
+   ## About npm and yarn( I copy the content from Bao,Xinzhi,Windows method is same as the mac)
+1. **Install `npm`**
+   
+   1. Download Node.js Installer:
+   - Go to the [Node.js Downloads page](https://nodejs.org/) and download the macOS .pkg installer.
+   2. Run the Installer:
+   - Open the downloaded file and follow the installation instructions, agreeing to terms and selecting installation locations as needed.
+   3. Verify Installation:
+   - Open `Terminal.app` on your mac and run:
+     
+     ```bash
+     node -v
+     npm -v
+     ```
+   
+   . This can confirms the both Node.js and npm are installed correctly.
+
+2. **Install `yarn` via `npm`**
+   
+   1. Installation:
+   - Open `Terminal.app` on your mac and run:
+     
+     ```bash
+     npm install --global yarn
+     ```
+   2. Check Installation:
+   - Check that `yarn` is installed by running:
+     
+     ```bash
+     yarn --version
+     ```
+  ## About GitHub
+1.How to clone a repository to your local mechine
+        Step 1: Copy the repository URL
+                Go to the repository on GitHub, click the "Code" button, and copy the HTTPS URL.
+
+        Step 2: Run the clone command
+                Open your terminal and run:
+                bash:
+               git clone https://github.com/username/repository-name.git
+              ( Replace username and repository-name with the your own actual names.)
+
+        Step 3: Navigate to the project folder
+                 Once cloned, move into the project directory with:
+                 bash:
+                 cd repository-name
+
+2.How can you push your code to your lab's GitHub repository:
+       Step 1: Clone the repository and make changes
+                 First, clone the lab’s repository to your local machine using the following command:
+                 bash:
+                 git clone https://github.com/lab-name/repository-name.git
+                (Replace lab-name and repository-name with the actual names. Then, make the necessary changes to your code locally.)
+
+
+      Step 2: Stage and commit your changes
+                 Once you’ve made your changes, you need to stage and commit them. Navigate to the project folder and run:
+                 bash:
+                 git add .
+                 git commit -m "Your commit message"
+                 (The git add . command stages all the changes, and git commit saves them with a message describing what you changed.
+
+
+      Step 3: Push the changes to the remote repository
+              Finally, push the committed changes back to the lab’s GitHub repository using:
+                bash:
+                git push origin main
+                (If your lab’s repository uses a different branch (e.g., master), replace main with the correct branch name. This will upload your changes to the repository on GitHub.)
